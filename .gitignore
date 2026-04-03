@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+*.log
+.gemini/
+brain/
+tmp/
+*.webp
+*.png
+!sanches_bust_refined_facing_up_1775209354893.png

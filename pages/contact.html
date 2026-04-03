@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Studio Portfolio</title>
+    <meta name="description" content="Get in touch for bespoke design and development services.">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <!-- Lenis Smooth Scroll -->
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.33/dist/lenis.min.js"></script>
+</head>
+<body>
+    <div class="background-animation">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">
+            <a href="../index.html">STUDIO.</a>
+        </div>
+        <div class="nav-links">
+            <a href="../index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <main class="container" style="display: flex; align-items: center; justify-content: center; min-height: 80vh;">
+        <section class="glass-card" style="max-width: 700px; width: 100%; text-align: center;">
+            <h1 style="font-size: clamp(2rem, 5vw, 4rem); margin-bottom: 24px; color: #fff;">LET'S WORK TOGETHER</h1>
+            
+            <p style="color: var(--text-secondary); margin-bottom: 48px; font-size: 1.1rem; max-width: 500px; margin-left: auto; margin-right: auto;">Ready to bring your vision to life? Fill out the form below or send an email to hello@studio.com</p>
+
+            <form style="display: grid; gap: 24px; text-align: left;">
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px;">
+                    <div style="display: grid; gap: 12px;">
+                        <label for="name" style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; color: var(--text-secondary);">Your Name</label>
+                        <input type="text" id="name" placeholder="John Doe" style="padding: 16px; border-radius: 16px; background: rgba(255,255,255,0.03); border: 1px solid var(--glass-border); color: white; outline: none; font-size: 1rem; transition: border-color 0.3s ease;">
+                    </div>
+                    <div style="display: grid; gap: 12px;">
+                        <label for="email" style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; color: var(--text-secondary);">Your Email</label>
+                        <input type="email" id="email" placeholder="john@example.com" style="padding: 16px; border-radius: 16px; background: rgba(255,255,255,0.03); border: 1px solid var(--glass-border); color: white; outline: none; font-size: 1rem; transition: border-color 0.3s ease;">
+                    </div>
+                </div>
+                <div style="display: grid; gap: 12px;">
+                    <label for="message" style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; color: var(--text-secondary);">Your Message</label>
+                    <textarea id="message" rows="5" placeholder="How can I help you?" style="padding: 16px; border-radius: 16px; background: rgba(255,255,255,0.03); border: 1px solid var(--glass-border); color: white; outline: none; font-size: 1rem; transition: border-color 0.3s ease; resize: none;"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" style="border: none; cursor: pointer; margin-top: 16px; padding: 18px; font-size: 1rem;">Send Project Request</button>
+            </form>
+            
+            <div style="margin-top: 48px;">
+                <a href="../index.html" class="btn btn-secondary">Back to Home</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Portfolio 0.2. All rights reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../js/main.js"></script>
+
+    <style>
+        input:focus, textarea:focus {
+            border-color: var(--accent-color) !important;
+        }
+    </style>
+</body>
+</html>
